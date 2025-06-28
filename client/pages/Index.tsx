@@ -21,7 +21,7 @@ export default function Index() {
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage:
-              "linear-gradient(rgba(114, 35, 122, 0.7), rgba(114, 35, 122, 0.5)), url('https://images.unsplash.com/photo-1558618047-3c8c76c60e2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80')",
+              "url(https://cdn.builder.io/api/v1/image/assets%2F9453fded3ea34b43b1f59fe13d5a1967%2F5609f064e8ec482e9a0bac473f6a8f26)",
           }}
         />
 
