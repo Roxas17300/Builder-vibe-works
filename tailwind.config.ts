@@ -57,6 +57,22 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // R'TOITURE Brand Colors
+        violet: {
+          DEFAULT: "#72237a",
+          light: "#8b4d93",
+          dark: "#5a1c62",
+        },
+        copper: {
+          DEFAULT: "#bf6753",
+          light: "#d2816f",
+          dark: "#a5533f",
+        },
+      },
+      fontFamily: {
+        averiaserif: ["Averia Serif Libre", "serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+        lato: ["Lato", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
