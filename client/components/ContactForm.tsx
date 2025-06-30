@@ -107,15 +107,10 @@ export function ContactForm() {
                   <h4 className="font-montserrat font-semibold mb-2">
                     Horaires
                   </h4>
-                  <p className="font-lato text-violet-light">
-                    Lun - Ven : 8h00 - 18h00
+                  <p className="font-lato text-white">
+                    Lun - Ven : 9h00 - 17h00
                   </p>
-                  <p className="font-lato text-violet-light">
-                    Sam : 8h00 - 12h00
-                  </p>
-                  <p className="font-lato text-sm text-violet-light">
-                    Urgences : 24h/24, 7j/7
-                  </p>
+                  <p className="font-lato text-white">Sam : 9h00 - 12h00</p>
                 </div>
               </div>
             </div>
