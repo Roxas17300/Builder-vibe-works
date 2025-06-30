@@ -119,6 +119,7 @@ export default function Index() {
       <Services />
       <Gallery />
       <Testimonials />
+      <Instagram />
       <ContactForm />
       <Footer />
     </div>
