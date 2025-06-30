@@ -113,6 +113,29 @@ export function ContactForm() {
                   <p className="font-lato text-white">Sam : 9h00 - 12h00</p>
                 </div>
               </div>
+
+              <div className="flex items-start space-x-4">
+                <div className="bg-white/20 p-3 rounded-lg">
+                  <MapPin className="w-6 h-6" />
+                </div>
+                <div>
+                  <h4 className="font-montserrat font-semibold mb-2">
+                    Notre localisation
+                  </h4>
+                  <div className="rounded-lg overflow-hidden">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2877.538558243872!2d4.353896976580353!3d43.84466494002585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2ba20036abdf4985%3A0xf455fb13db7b9452!2sR%27toiture!5e0!3m2!1sfr!2sfr!4v1751270211684!5m2!1sfr!2sfr"
+                      width="300"
+                      height="200"
+                      style={{ border: 0 }}
+                      allowFullScreen
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      className="rounded-lg"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
