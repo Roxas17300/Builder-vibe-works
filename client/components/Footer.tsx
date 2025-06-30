@@ -125,7 +125,7 @@ export function Footer() {
               <ul className="space-y-2 font-lato text-sm">
                 <li>
                   <a
-                    href="#"
+                    href="/mentions-legales"
                     className="text-gray-400 hover:text-copper transition-colors"
                   >
                     Mentions légales
