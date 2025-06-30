@@ -3,6 +3,7 @@ import { Header } from "../components/Header";
 import { Services } from "../components/Services";
 import { Gallery } from "../components/Gallery";
 import { Testimonials } from "../components/Testimonials";
+import { Instagram } from "../components/Instagram";
 import { ContactForm } from "../components/ContactForm";
 import { Footer } from "../components/Footer";
 
