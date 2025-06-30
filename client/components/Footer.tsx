@@ -11,7 +11,7 @@ export function Footer() {
               R'TOITURE
             </h3>
             <p className="font-lato text-gray-300 mb-6 leading-relaxed">
-              Artisan couvreur zingueur depuis plus de 15 ans dans le Gard.
+              Artisan couvreur zingueur depuis plusieurs années dans le Gard.
               Expertise, qualité et service client au cœur de notre métier.
             </p>
             <div className="flex space-x-4">
