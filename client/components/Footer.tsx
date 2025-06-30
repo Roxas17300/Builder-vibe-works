@@ -83,7 +83,7 @@ export function Footer() {
                   href="#services"
                   className="text-gray-300 hover:text-copper transition-colors"
                 >
-                  Pose de Velux
+                  Entretien de toiture
                 </a>
               </li>
               <li>
