@@ -48,7 +48,7 @@ export function ContactForm() {
           <h2 className="text-4xl font-averiaserif font-bold text-white mb-4">
             Demandez votre devis gratuit
           </h2>
-          <p className="text-lg font-lato text-violet-light max-w-2xl mx-auto">
+          <p className="text-lg font-lato text-white max-w-2xl mx-auto">
             Contactez-nous pour obtenir un devis personnalisé et sans engagement
             pour vos travaux de couverture et de zinguerie.
           </p>
