@@ -80,9 +80,7 @@ export function ContactForm() {
                 </div>
                 <div>
                   <h4 className="font-montserrat font-semibold mb-2">Email</h4>
-                  <p className="font-lato text-violet-light">
-                    contact@rtoiture.fr
-                  </p>
+                  <p className="font-lato text-white">contact@rtoiture.fr</p>
                 </div>
               </div>
 
