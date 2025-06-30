@@ -11,7 +11,7 @@ const services = [
     icon: Wrench,
     title: "Zinguerie",
     description:
-      "Pose et entretien de gouttières, chéneaux, et évacuations. Travail de précision du zinc et cuivre.",
+      "Pose et entretien de gouttières, chéneaux, et évacuations. Travail de précision du zinc, du cuivre et du plomb",
   },
   {
     icon: Sun,
