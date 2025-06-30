@@ -70,10 +70,7 @@ export function ContactForm() {
                   <h4 className="font-montserrat font-semibold mb-2">
                     Téléphone
                   </h4>
-                  <p className="font-lato text-violet-light">06 12 34 56 78</p>
-                  <p className="font-lato text-sm text-violet-light">
-                    Urgences 7j/7
-                  </p>
+                  <p className="font-lato text-white">06 77 06 15 35</p>
                 </div>
               </div>
 
