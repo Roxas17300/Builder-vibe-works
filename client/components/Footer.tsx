@@ -141,7 +141,7 @@ export function Footer() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/cgv"
                     className="text-gray-400 hover:text-copper transition-colors"
                   >
                     CGV
