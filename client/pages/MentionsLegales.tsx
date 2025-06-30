@@ -62,13 +62,13 @@ export default function MentionsLegales() {
                 3. Hébergement du site
               </h2>
               <p className="font-lato text-gray-700">
-                Ce site est hébergé par Netlify, Inc.
+                Ce site est hébergé par OVHcloud.
                 <br />
-                2325 3rd Street, Suite 296
+                2 rue Kellermann
                 <br />
-                San Francisco, CA 94107
+                59100 Roubaix
                 <br />
-                États-Unis
+                France
               </p>
             </section>
 
