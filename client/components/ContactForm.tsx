@@ -16,9 +16,30 @@ export function ContactForm() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    setTimeout(() => {
-      alert("Merci pour votre demande ! Nous vous recontacterons rapidement.");
+    try {
+      // Create email content
+      const emailBody = `
+Nouvelle demande de devis R'TOITURE
+
+Nom: ${formData.name}
+Email: ${formData.email}
+Téléphone: ${formData.phone}
+Service: ${formData.service}
+Message: ${formData.message}
+      `;
+
+      // Create mailto link
+      const mailtoLink = `mailto:contact@rtoiture.fr?subject=Demande de devis - ${formData.name}&body=${encodeURIComponent(emailBody)}`;
+
+      // Open email client
+      window.location.href = mailtoLink;
+
+      // Show success message
+      alert(
+        "Merci pour votre demande ! Votre client email va s'ouvrir pour envoyer le message.",
+      );
+
+      // Reset form
       setFormData({
         name: "",
         email: "",
@@ -26,8 +47,13 @@ export function ContactForm() {
         service: "",
         message: "",
       });
+    } catch (error) {
+      alert(
+        "Une erreur est survenue. Veuillez réessayer ou nous contacter directement.",
+      );
+    } finally {
       setIsSubmitting(false);
-    }, 1000);
+    }
   };
 
   const handleChange = (
