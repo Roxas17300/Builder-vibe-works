@@ -40,7 +40,7 @@ export default function Index() {
             tout le département du Gard.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-6">
             <a
               href="#services"
               className="bg-copper text-white px-8 py-4 rounded-lg font-montserrat font-semibold hover:bg-copper-dark transition-all duration-300 shadow-lg hover:shadow-xl flex items-center space-x-2"
@@ -53,6 +53,17 @@ export default function Index() {
               className="bg-violet text-white px-8 py-4 rounded-lg font-montserrat font-semibold hover:bg-violet-dark transition-all duration-300 flex items-center space-x-2"
             >
               <span>Devis gratuit</span>
+            </a>
+          </div>
+
+          <div className="flex justify-center">
+            <a
+              href="https://www.instagram.com/rtoiture30/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white px-6 py-3 rounded-lg font-montserrat font-semibold hover:shadow-xl transition-all duration-300 flex items-center space-x-2"
+            >
+              <span>Suivez nous</span>
             </a>
           </div>
         </div>
