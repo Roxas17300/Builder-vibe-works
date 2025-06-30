@@ -114,9 +114,8 @@ export function Footer() {
               <div className="flex items-center space-x-3">
                 <Clock className="w-5 h-5 text-copper" />
                 <div>
-                  <p>Lun - Ven : 8h00 - 18h00</p>
-                  <p>Sam : 8h00 - 12h00</p>
-                  <p className="text-sm text-gray-400">Urgences : 24h/24</p>
+                  <p>Lun - Ven : 9h00 - 17h00</p>
+                  <p>Sam : 9h00 - 12h00</p>
                 </div>
               </div>
             </div>
