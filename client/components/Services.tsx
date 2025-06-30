@@ -23,7 +23,7 @@ const services = [
     icon: AlertCircle,
     title: "Dépannage",
     description:
-      "Intervention rapide 7j/7 pour réparations d'urgence. Service de qualité et tarifs transparents.",
+      "Intervention rapide pour réparations d'urgence. Service de qualité et tarifs transparents.",
   },
 ];
 
