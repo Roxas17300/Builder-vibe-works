@@ -15,9 +15,9 @@ const services = [
   },
   {
     icon: Sun,
-    title: "Pose de Velux",
+    title: "Entretien de toiture",
     description:
-      "Installation de fenêtres de toit pour apporter lumière naturelle et aération à vos combles.",
+      "Maintenance préventive et curative de votre toiture pour prolonger sa durée de vie.",
   },
   {
     icon: AlertCircle,
