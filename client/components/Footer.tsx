@@ -156,8 +156,8 @@ export function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="font-lato text-gray-400 text-sm mb-4 md:mb-0">
-              © 2024 R'TOITURE - Tous droits réservés | SIRET : 123 456 789
-              00012
+              © 2025 R'TOITURE - Tous droits réservés | SIRET : 944 939 560
+              00016
             </p>
             <div className="flex items-center space-x-6 text-sm font-lato text-gray-400">
               <span>Assurance décennale</span>
