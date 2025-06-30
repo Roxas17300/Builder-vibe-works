@@ -133,7 +133,7 @@ export function Footer() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="/mentions-legales#protection-donnees"
                     className="text-gray-400 hover:text-copper transition-colors"
                   >
                     Politique de confidentialité
