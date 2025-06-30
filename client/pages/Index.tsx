@@ -49,7 +49,7 @@ export default function Index() {
             </a>
             <a
               href="#contact"
-              className="border-2 border-white text-white px-8 py-4 rounded-lg font-montserrat font-semibold hover:bg-white hover:text-violet transition-all duration-300 flex items-center space-x-2"
+              className="bg-violet text-white px-8 py-4 rounded-lg font-montserrat font-semibold hover:bg-violet-dark transition-all duration-300 flex items-center space-x-2"
             >
               <span>Devis gratuit</span>
             </a>
