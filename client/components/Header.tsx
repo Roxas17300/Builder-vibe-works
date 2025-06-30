@@ -10,6 +10,11 @@ export function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F9453fded3ea34b43b1f59fe13d5a1967%2Flogo-3-r-toiture-robin"
+              alt="R'TOITURE Logo"
+              className="h-12 w-auto mr-3"
+            />
             <span className="text-2xl font-averiaserif font-bold text-violet">
               R'TOITURE
             </span>
