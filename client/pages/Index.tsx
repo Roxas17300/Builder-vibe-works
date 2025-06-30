@@ -70,12 +70,10 @@ export default function Index() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="flex flex-col items-center">
-              <div
-                className="rounded-full w-20 h-20 mb-4 bg-cover bg-center bg-no-repeat"
-                style={{
-                  backgroundImage:
-                    "url(https://cdn.builder.io/api/v1/image/assets%2F9453fded3ea34b43b1f59fe13d5a1967%2F688dc7a51d8044ddacdf2de149c31b05)",
-                }}
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F9453fded3ea34b43b1f59fe13d5a1967%2F688dc7a51d8044ddacdf2de149c31b05"
+                alt="Assurance décennale"
+                className="w-20 h-20 mb-4 object-contain"
               />
               <h3 className="font-montserrat font-semibold text-lg text-gray-900 mb-2">
                 Assurance décennale
@@ -86,12 +84,10 @@ export default function Index() {
             </div>
 
             <div className="flex flex-col items-center">
-              <div
-                className="rounded-full w-20 h-20 mb-4 bg-cover bg-center bg-no-repeat"
-                style={{
-                  backgroundImage:
-                    "url(https://cdn.builder.io/api/v1/image/assets%2F9453fded3ea34b43b1f59fe13d5a1967%2Fae6f0123119e4c2da0cf9c83ded4e119)",
-                }}
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F9453fded3ea34b43b1f59fe13d5a1967%2Fae6f0123119e4c2da0cf9c83ded4e119"
+                alt="Artisan RGE Qualibat"
+                className="w-20 h-20 mb-4 object-contain"
               />
               <h3 className="font-montserrat font-semibold text-lg text-gray-900 mb-2">
                 Artisan RGE Qualibat
