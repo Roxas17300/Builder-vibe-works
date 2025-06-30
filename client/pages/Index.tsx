@@ -106,10 +106,10 @@ export default function Index() {
                 <Clock className="w-8 h-8 text-white" />
               </div>
               <h3 className="font-montserrat font-semibold text-lg text-gray-900 mb-2">
-                Entretien de toiture
+                Intervention rapide
               </h3>
               <p className="font-lato text-gray-600">
-                Maintenance et entretien régulier
+                Dépannage d'urgence&nbsp;
               </p>
             </div>
           </div>
