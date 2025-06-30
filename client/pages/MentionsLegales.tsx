@@ -142,7 +142,7 @@ export default function MentionsLegales() {
               </p>
               <p className="font-lato text-gray-700">
                 Pour exercer vos droits, vous pouvez nous contacter à l'adresse
-                : contact@rtoiture.fr
+                : <span className="text-violet">contact@rtoiture.fr</span>
               </p>
             </section>
 
