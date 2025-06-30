@@ -47,6 +47,12 @@ export function Header() {
               Avis
             </a>
             <a
+              href="#instagram"
+              className="font-montserrat font-medium text-gray-700 hover:text-violet transition-colors"
+            >
+              Suivez nous
+            </a>
+            <a
               href="#contact"
               className="font-montserrat font-medium text-gray-700 hover:text-violet transition-colors"
             >
