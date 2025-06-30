@@ -36,7 +36,7 @@ export function Services() {
             Nos Services
           </h2>
           <p className="text-lg font-lato text-gray-600 max-w-2xl mx-auto">
-            Artisan couvreur zingueur depuis plus de 15 ans, nous mettons notre
+            Couvreur zingueur depuis plusieurs années, nous mettons notre
             expertise au service de vos projets de toiture dans le Gard.
           </p>
         </div>
