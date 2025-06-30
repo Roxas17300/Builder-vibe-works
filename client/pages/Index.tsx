@@ -35,9 +35,9 @@ export default function Index() {
             Artisan couvreur zingueur dans le Gard
           </p>
           <p className="text-lg font-lato mb-12 max-w-3xl mx-auto leading-relaxed">
-            Plus de 15 ans d'expertise au service de vos projets de toiture.
-            Couverture, zinguerie, pose de Velux et dépannage d'urgence dans
-            tout le département du Gard.
+            Notre savoir-faire au service de vos projets de toiture. Couverture,
+            zinguerie, pose de Velux et dépannage d'urgence dans le département
+            du Gard.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-6">
