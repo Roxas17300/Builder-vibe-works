@@ -50,7 +50,13 @@ export function Gallery() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
   const [filter, setFilter] = useState("Tous");
 
-  const categories = ["Tous", "Couverture", "Zinguerie", "Velux", "Dépannage"];
+  const categories = [
+    "Tous",
+    "Couverture",
+    "Zinguerie",
+    "Entretien",
+    "Dépannage",
+  ];
 
   const filteredProjects = projects.filter(
     (project) => filter === "Tous" || project.category === filter,
