@@ -11,9 +11,9 @@ export function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F9453fded3ea34b43b1f59fe13d5a1967%2Flogo-3-r-toiture-robin"
+              src="https://cdn.builder.io/api/v1/image/assets%2F9453fded3ea34b43b1f59fe13d5a1967%2Fee566d10d5ff4d1fb7ab40db58e12f91"
               alt="R'TOITURE Logo"
-              className="h-12 w-auto mr-3"
+              className="h-[78px] w-auto mr-3"
             />
             <span className="text-2xl font-averiaserif font-bold text-violet">
               R'TOITURE
