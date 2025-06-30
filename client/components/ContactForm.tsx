@@ -92,10 +92,8 @@ export function ContactForm() {
                   <h4 className="font-montserrat font-semibold mb-2">
                     Zone d'intervention
                   </h4>
-                  <p className="font-lato text-violet-light">
-                    Gard et départements limitrophes
-                  </p>
-                  <p className="font-lato text-sm text-violet-light">
+                  <p className="font-lato text-white">50 km autour de Nîmes</p>
+                  <p className="font-lato text-sm text-white">
                     Nîmes, Alès, Uzès, Bagnols-sur-Cèze...
                   </p>
                 </div>
