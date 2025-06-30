@@ -124,7 +124,7 @@ export default function MentionsLegales() {
             </section>
 
             {/* Protection des données */}
-            <section className="mb-8">
+            <section id="protection-donnees" className="mb-8">
               <h2 className="text-2xl font-montserrat font-semibold text-gray-900 mb-4">
                 7. Protection des données personnelles
               </h2>
