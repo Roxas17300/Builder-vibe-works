@@ -69,9 +69,13 @@ export default function Index() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="flex flex-col items-center">
-              <div className="bg-violet-light rounded-full p-4 mb-4">
-                <Shield className="w-8 h-8 text-white" />
-              </div>
+              <div
+                className="rounded-full p-4 mb-4 bg-cover bg-center bg-no-repeat"
+                style={{
+                  backgroundImage:
+                    "url(https://cdn.builder.io/api/v1/image/assets%2F9453fded3ea34b43b1f59fe13d5a1967%2F688dc7a51d8044ddacdf2de149c31b05)",
+                }}
+              />
               <h3 className="font-montserrat font-semibold text-lg text-gray-900 mb-2">
                 Assurance décennale
               </h3>
@@ -81,9 +85,13 @@ export default function Index() {
             </div>
 
             <div className="flex flex-col items-center">
-              <div className="bg-copper rounded-full p-4 mb-4">
-                <Award className="w-8 h-8 text-white" />
-              </div>
+              <div
+                className="rounded-full p-4 mb-4 bg-cover bg-center bg-no-repeat"
+                style={{
+                  backgroundImage:
+                    "url(https://cdn.builder.io/api/v1/image/assets%2F9453fded3ea34b43b1f59fe13d5a1967%2Fae6f0123119e4c2da0cf9c83ded4e119)",
+                }}
+              />
               <h3 className="font-montserrat font-semibold text-lg text-gray-900 mb-2">
                 Artisan RGE Qualibat
               </h3>
@@ -97,10 +105,10 @@ export default function Index() {
                 <Clock className="w-8 h-8 text-white" />
               </div>
               <h3 className="font-montserrat font-semibold text-lg text-gray-900 mb-2">
-                Intervention rapide
+                Entretien de toiture
               </h3>
               <p className="font-lato text-gray-600">
-                Dépannage d'urgence 7j/7
+                Maintenance et entretien régulier
               </p>
             </div>
           </div>
