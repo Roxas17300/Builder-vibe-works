@@ -4,45 +4,45 @@ import { ChevronLeft, ChevronRight, Eye } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Rénovation complète - Nîmes",
+    title: "Rénovation complète",
     category: "Couverture",
     image:
-      "https://images.unsplash.com/photo-1558618047-3c8c76c60e2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "https://cdn.builder.io/api/v1/image/assets%2F9453fded3ea34b43b1f59fe13d5a1967%2F86b18105bdb345b4a28654c626b156d3",
   },
   {
     id: 2,
-    title: "Installation Velux - Alès",
+    title: "Installation Velux - Bezouce",
     category: "Velux",
     image:
-      "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "https://cdn.builder.io/api/v1/image/assets%2F9453fded3ea34b43b1f59fe13d5a1967%2F129185d563914cc39495d92de2deb205",
   },
   {
     id: 3,
-    title: "Zinguerie moderne - Uzès",
+    title: "Habillage de Velux en zinc",
     category: "Zinguerie",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2F9453fded3ea34b43b1f59fe13d5a1967%2Feb6bce4b48a74bf88572c6b13a2745dc",
+      "https://cdn.builder.io/api/v1/image/assets%2F9453fded3ea34b43b1f59fe13d5a1967%2F53e0f8ddd8b44975b5547494c3310975",
   },
   {
     id: 4,
-    title: "Toiture traditionnelle - Bagnols",
+    title: "Toiture traditionnelle",
     category: "Couverture",
     image:
-      "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "https://cdn.builder.io/api/v1/image/assets%2F9453fded3ea34b43b1f59fe13d5a1967%2Fa56ff7a66b3444c19e54e2b8e1b0c397",
   },
   {
     id: 5,
     title: "Réparation d'urgence - Avignon",
     category: "Dépannage",
     image:
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "https://cdn.builder.io/api/v1/image/assets%2F9453fded3ea34b43b1f59fe13d5a1967%2F4b17ffcae9c447e799f2c26a658f757a",
   },
   {
     id: 6,
     title: "Isolation moderne - Montpellier",
     category: "Couverture",
     image:
-      "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "https://cdn.builder.io/api/v1/image/assets%2F9453fded3ea34b43b1f59fe13d5a1967%2F6d94b9f6f77f4fdfbbb565013a19a948",
   },
 ];
 
