@@ -21,7 +21,7 @@ const projects = [
     title: "Zinguerie moderne - Uzès",
     category: "Zinguerie",
     image:
-      "https://images.unsplash.com/photo-1590736969955-71cc94901144?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      "https://cdn.builder.io/api/v1/image/assets%2F9453fded3ea34b43b1f59fe13d5a1967%2Feb6bce4b48a74bf88572c6b13a2745dc",
   },
   {
     id: 4,
