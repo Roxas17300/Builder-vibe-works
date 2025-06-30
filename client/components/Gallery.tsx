@@ -11,15 +11,15 @@ const projects = [
   },
   {
     id: 2,
-    title: "Entretien toiture - Bezouce",
-    category: "Entretien",
+    title: "Zinguerie - Bezouce",
+    category: "Zinguerie",
     image:
       "https://cdn.builder.io/api/v1/image/assets%2F9453fded3ea34b43b1f59fe13d5a1967%2F129185d563914cc39495d92de2deb205",
   },
   {
     id: 3,
-    title: "Entretien de gouttières",
-    category: "Entretien",
+    title: "Gouttières en zinc",
+    category: "Zinguerie",
     image:
       "https://cdn.builder.io/api/v1/image/assets%2F9453fded3ea34b43b1f59fe13d5a1967%2F53e0f8ddd8b44975b5547494c3310975",
   },
