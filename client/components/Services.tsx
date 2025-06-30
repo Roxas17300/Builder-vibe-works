@@ -45,15 +45,15 @@ export function Services() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 group"
+              className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 group flex flex-col"
             >
-              <div className="flex items-center justify-center w-16 h-16 bg-copper-light rounded-lg mb-6 group-hover:bg-copper transition-colors duration-300">
+              <div className="flex items-center justify-center w-16 h-16 bg-copper-light rounded-lg mb-6 group-hover:bg-copper transition-colors duration-300 mx-auto">
                 <service.icon className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-montserrat font-semibold text-gray-900 mb-4">
+              <h3 className="text-xl font-montserrat font-semibold text-gray-900 mb-4 text-center">
                 {service.title}
               </h3>
-              <p className="font-lato text-gray-600 leading-relaxed">
+              <p className="font-lato text-gray-600 leading-relaxed text-center">
                 {service.description}
               </p>
             </div>
