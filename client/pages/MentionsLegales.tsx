@@ -8,15 +8,18 @@ export default function MentionsLegales() {
   const location = useLocation();
 
   useEffect(() => {
-    if (location.hash) {
-      const el = document.querySelector(location.hash);
-      if (el) {
-        setTimeout(() => {
-          el.scrollIntoView({ behavior: "smooth" });
-        }, 100); // Petit délai pour attendre le rendu
-      }
+  if (location.hash) {
+    const el = document.querySelector(location.hash);
+    if (el) {
+      setTimeout(() => {
+        const elementTop = el.getBoundingClientRect().top + window.pageYOffset;
+        const middleOfScreen = window.innerHeight / 2;
+        const scrollTo = elementTop - middleOfScreen;
+        window.scrollTo({ top: scrollTo, behavior: "smooth" });
+      }, 100);
     }
-  }, [location]);
+  }
+}, [location]);
   
   return (
     <div className="min-h-screen bg-white">
